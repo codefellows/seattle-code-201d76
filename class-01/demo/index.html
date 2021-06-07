@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- This tells the browser we are using html5 -->
+<html>
+  <head>
+    <title>Demo for code 201</title>
+    <style>
+      body {background-color: aqua;}
+      li {color: purple}
+    </style>
+  </head>
+  <body>
+    <img style="width: 200px" src="https://cdn.pixabay.com/photo/2017/08/10/21/29/back-to-school-2628013_1280.jpg" alt="Welcome written on a chalk board">
+    <h1 style="color: red">Welcome to Class 1 of 201</h1>
+    <p>This is a paragraph tag where we would typically add text body</p>
+    <ul style="font-family: cursive;">
+      <li>This is my first List Item</li>
+      <li>This where we add additional items to oiur list</li>
+    </ul>
+    <script>
+      console.log('Hey Class!');
+      // Use console logs to look at the value of variables or leave notes for yourself
+      // We are going to be adding some special pop ups that are specific to the browser
+      let userName = prompt('What is your name?');
+      // prompt returns whatever the user enters in the text box
+      console.log('The users name is: ' + userName);
+      let alertReturn = alert('hey, thanks for visiting my page ' + userName);
+      // concatonation ties strings together, and allows you to add variables
+      // in javascript, there is an implied return to any function where we don't specify a return value: undefined
+    </script>
+  </body>
+</html>
