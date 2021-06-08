@@ -1,0 +1,55 @@
+body * {
+  box-sizing: border-box;
+  /* This includes the border in any set sizing for the element */
+}
+
+#background {
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  opacity: 0.2;
+}
+/* this is where I style fonts*/
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+/* This where I start from the top down styling larger chunks */
+
+header {
+  border: thick dotted black;
+  margin: 5px;
+  padding: 10px;
+  /* border-width: 5px;
+  border-style: dotted; */
+}
+
+section {
+  border: thick dotted black;
+  margin-top: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 10px;
+}
+
+section img {
+  width: 25%;
+  /* 25% of the parent container */
+  display: block;
+  margin: 10px auto;
+
+}
+
+ol {
+  list-style: decimal;
+  list-style-position: inside;
+}
