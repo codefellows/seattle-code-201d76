@@ -35,3 +35,14 @@ Optional
   - `git branch -d localBranchName`
 - delete branch remotely
   - `git push origin --delete remoteBranchName`
+
+
+1. fork your repo
+2. clone your fork
+3. checkout a new branch
+4. do work
+5. acp the branch
+6. github.com merge pull request
+7. terminal checkout main 'git checkout main'
+8. git pull origin main
+9. repeat from line 3
