@@ -1,0 +1,6 @@
+canvas {
+  width: 75%;
+  height: 500px;
+}
+
+/* // if you have issues sizing your chart, put the canvas in a div and size the div */
