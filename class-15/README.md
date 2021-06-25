@@ -31,6 +31,10 @@ As a result of completing Lecture 15 of Code 201, students will:
 ## 301 Preview
 
 Lots of good stuff coming up in Code 301! You'll learn to build MERN apps and deeper exploration of how the web works.
+- Mongo - database
+- Express - server
+- React - front end framework
+- Node - scripting environment js runs JS without a browser (for the backend)
 
 ### Structure of 301
 
