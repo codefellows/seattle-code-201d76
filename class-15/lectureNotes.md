@@ -13,6 +13,7 @@
   - project organization
     - trello
     - azure
+    - gitHub projects
   - merge conflicts
 
 
